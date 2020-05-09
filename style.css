@@ -1,0 +1,40 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+.container{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.head > h2{
+    line-height: 1.5;
+    font-size: 70px;
+}
+.tagline{
+    font-size: 20px;
+}
+
+.border{
+    width: 100%;
+    border: 3px solid rgb(70, 68, 68);
+    margin-top: 5px;
+}
+
+.content{
+    display: flex;
+}
+.sidebar{
+    background-color: cadetblue;
+}
+.main-content{
+    background-color: cadetblue;
+}
