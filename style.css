@@ -10,15 +10,44 @@ li{
 a{
     text-decoration: none;
 }
+
+.tag{
+    padding: 5px 4px;
+    background-color: rgb(143, 145, 141);
+    color: white;
+    border-radius: 10px;
+}
+.android{
+    background-color: rgb(173, 145, 145);
+}
+.java{
+    background-color: tomato;
+}
+.js{
+    background-color: rgb(106, 158, 182);
+}
+.css{
+    background-color: rgb(90, 55, 90);
+}
+.php{
+    background-color: rgb(147, 47, 194);
+}
 .container{
     margin-left: 15vw;
     margin-right: 15vw;
 }
+/* start of header */
 .head{
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    align-items: center;
+}
+.profile{
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
 }
 
 .head > h2{
@@ -28,6 +57,7 @@ a{
 .tagline{
     font-size: 20px;
 }
+/* end of header */
 
 .border{
     width: 100%;
@@ -42,7 +72,7 @@ a{
 /* start sidebar  */
 .sidebar{
     width: 100%;
-    border-right: 2px solid rgb(139, 82, 82);
+    /* border-right: 2px solid rgb(139, 82, 82); */
     flex: 2;
 }
 .sidebar-content{
@@ -145,8 +175,56 @@ hr{
 }
 /* end of skills list */
 /* end sidebar style */
+/* start of main-cemtent */
 .main-content{
-    height: 250px;
     width: 100%;
     flex: 3;
+    padding: 15px;
+    border-left: 2px solid rgb(139, 82, 82);
 }
+.technical,.experience{
+    font-size: 20px;
+    line-height: 2;
+}
+.experience{
+    margin-top: 15px;
+}
+.project-container{
+    font-size: 18px;
+    margin-left: 15px;
+    line-height: 1.5;
+    margin-top: 25px;
+}
+.project-name{
+    font-weight: bold;
+}
+.implements{
+   margin-top: 5px;
+   padding-left: 15px; 
+}
+
+.experience-container{
+    line-height: 1.2;
+    margin-top: 15px;
+    font-size: 18px;
+}
+.experience-list-container{
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.experience-list{
+    line-height: 1.5;
+    list-style-type: disc;
+    margin-left: 15px;
+}
+/* end of main-content */
+/* start of footer */
+.footer{
+    border-top: 1px solid #a09898;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    font-size: 18px;
+}
+/* end of footer */
