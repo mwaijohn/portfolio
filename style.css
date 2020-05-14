@@ -1,9 +1,12 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     border: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 li{
     list-style: none;
 }
@@ -11,9 +14,10 @@ a{
     text-decoration: none;
 }
 
+
 .tag{
     padding: 5px 4px;
-    background-color: rgb(143, 145, 141);
+    background-color: rgb(161, 51, 184);
     color: white;
     border-radius: 10px;
 }
@@ -46,6 +50,7 @@ a{
     justify-content: center;
     text-align: center;
     align-items: center;
+    color: rgb(97, 92, 92);
 }
 .profile{
     border-radius: 50%;
@@ -64,7 +69,7 @@ a{
 
 .border{
     width: 100%;
-    border: 3px solid rgb(70, 68, 68);
+    border: 3px solid #a09898;
     margin-top: 5px;
 }
 
@@ -94,7 +99,7 @@ a{
     text-transform: uppercase;
 }
 hr{
-    border: 1px solid black;
+    border: 1px solid gray;
 }
 .phone, .email, .location{
     line-height: 2;
@@ -232,3 +237,24 @@ hr{
     font-size: 18px;
 }
 /* end of footer */
+
+/* small screen */
+@media screen  and (max-width:600px){
+    .container{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .head > h2{
+        line-height: 1;
+        font-size: 40px;
+    }
+    .main-content{
+        border-left: 0px;
+    }
+    .project-title{
+        line-height: 2;
+    }
+}
