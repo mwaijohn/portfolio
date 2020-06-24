@@ -19,30 +19,13 @@ p{
     font-size: 16px;
 }
 
-
+.tag::before{
+    content: "#";
+}
 .tag{
     padding: 5px 4px;
-    background-color: rgb(184, 51, 133);
-    color: white;
-    border-radius: 10px;
-}
-.android{
-    background-color: #76ff03;
-}
-.java{
-    background-color: #2196f3;
-}
-.js{
-    background-color: #e64a19;
-}
-.css{
-    background-color: rgb(90, 55, 90);
-}
-.php{
-    background-color: #673ab7;
-}
-.kotlin{
-    background-color: #3f51b5;
+    color: rgb(50, 50, 163);
+
 }
 .horizontal-break{
     margin-top: 5px;
