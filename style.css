@@ -13,6 +13,7 @@ li{
 }
 a{
     text-decoration: none;
+    color: rgb(126, 121, 121);
 }
 
 a:visited{
