@@ -218,6 +218,11 @@ hr{
     margin-top: 15px;
     font-size: 18px;
 }
+
+.experience-header{
+    font-weight: 500;
+    color: rgb(97, 92, 92);
+}
 .experience-list-container{
     margin-left: 15px;
     margin-top: 10px;
